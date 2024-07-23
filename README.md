@@ -13,3 +13,4 @@
 - [Simple & Uniform](https://dribbble.com/shots/23291447-Creacy-Photography-Agency-Landing-Page)
 - [Elegant & Single Accent Colour](https://dribbble.com/shots/23446738-Frameup-Photographer-Portfolio-Landing-Page-Website)
 - [Simple & Detailed](https://fyzlight.ru/)
+- [Peter Mckinnon's Website](https://www.petermckinnon.com/)
