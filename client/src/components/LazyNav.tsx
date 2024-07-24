@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button } from "@/components/ui/button"
+
 function LazyNav(props: { page: string }) {
   const getOnClickHandler = (page: string) => {
     return (e: React.MouseEvent<HTMLButtonElement>) => {
@@ -16,7 +16,7 @@ function LazyNav(props: { page: string }) {
 
   return (
     <div>
-      <Button onClick={getOnClickHandler(props.page)}>Nothing at all !</Button>
+      <button className='bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded' onClick={getOnClickHandler(props.page)}>Nothing at all !</button>
     </div>
   );
 }
