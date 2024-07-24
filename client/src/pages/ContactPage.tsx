@@ -1,5 +1,4 @@
 import LazyNav from "../components/LazyNav"
-
 function ContactPage() {
   return (
     <div>
