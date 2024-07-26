@@ -1,4 +1,3 @@
-import React from 'react';
 import LazyNav from "../components/LazyNav";
 import { ModeToggle } from "@/components/mode-toggle";
 import './HomePage.css'; // Assuming you are using CSS files for styling
