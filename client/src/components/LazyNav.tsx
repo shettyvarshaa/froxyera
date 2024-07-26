@@ -1,5 +1,6 @@
 import React from 'react';
 import { Button } from "@/components/ui/button"
+import { Link } from 'react-router-dom';
 function LazyNav(props: { page: string }) {
   const getOnClickHandler = (page: string) => {
     return (e: React.MouseEvent<HTMLButtonElement>) => {
@@ -16,7 +17,9 @@ function LazyNav(props: { page: string }) {
 
   return (
     <div>
-      <Button onClick={getOnClickHandler(props.page)}>Nothing at all !</Button>
+      <Button onClick={getOnClickHandler(props.page)}>
+        <Link to={"/portfolio"}>Nothing at all !</Link>
+      </Button>
     </div>
   );
 }
