@@ -1,7 +1,8 @@
-
+import NavBar from "@/components/NavBar";
 function HomePage() {
   return (
     <>
+    <NavBar/>
       <div id="homepage-container">
         <section
           id="homepage-banner"
