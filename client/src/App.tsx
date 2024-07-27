@@ -1,7 +1,7 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import HomePage from "./pages/HomePage";
-import PortfolioPage from "./pages/PortfolioPage";
-import ContactPage from "./pages/ContactPage";
+import HomePage from "@/pages/Home/HomePage";
+import PortfolioPage from "@/pages/Portfolio/PortfolioPage";
+import ContactPage from "@/pages/Contact/ContactPage";
 import { ThemeProvider } from "@/components/theme-provider";
 
 function App() {

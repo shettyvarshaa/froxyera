@@ -1,4 +1,4 @@
-import LazyNav from "../components/LazyNav"
+import LazyNav from "@/components/LazyNav"
 function PortfolioPage() {
   return (
     <div>
