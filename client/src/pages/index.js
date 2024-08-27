@@ -1,5 +1,8 @@
-import portfolio from './portfolio/portfolio'
+import Portfolio from './portfolio/Portfolio'
+import HomePage from './homepage/HomePage';
+import Contact from './contact/Contact';
+import About from './about/About';
 
 export {
-    portfolio,
+    HomePage, Portfolio, Contact, About,
 };
